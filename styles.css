@@ -10,3 +10,24 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+head {
+    
+}
+
+body > nav {
+    background-color: darkcyan;
+    padding: 100%;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 5px;    
+}
+
+.img1 {
+    width: 100%;
+}
+.img2, .img3 {
+    width: 40%;
+}
+.button{
+    background-color: #BF7631;
+}
