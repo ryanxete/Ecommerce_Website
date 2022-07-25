@@ -10,24 +10,228 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-head {
-    
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
 }
 
-body > nav {
-    background-color: darkcyan;
-    padding: 100%;
-    position: relative;
-    width: 80%;
-    box-shadow: 0 5px;    
+header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    font-size: 14px;
+    border-bottom: 4px solid black;
+}
+
+.navb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.4rem;
+}
+
+.logo {
+    font-size: 140%;
+    text-align: center;
+}
+
+.logoimg {
+    width: 10%;
+}
+
+.abc {
+    display: inline-flex;
+    padding-right: 0;
+}
+
+.cart {
+    padding-left: 7px;
 }
 
 .img1 {
+    margin-top: 80px;
     width: 100%;
 }
-.img2, .img3 {
-    width: 40%;
+
+h2 {
+    font-size: 19px;
+    width: 51%;
+    margin-left: 100px;
+    margin-top: 42px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+    margin-bottom: 12px;
 }
-.button{
+
+.aboutsec{
+    margin-top: 20px;
+}
+
+.aboutsec p {
+    font-size: 13.5px;
+}
+
+.p1 {
+    padding-left: 150px;
+    width: 60%;
+}
+
+.pp {
+    display: flex;
+}
+
+.img2 {
+    width: 51%;
+    padding-top: 23px;
+    padding-left: 100px;
+}
+
+.p2 {
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.img3 {
+    float: right;
+    width: 32%;
+    margin-right: 100px;
+}
+
+.products {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.pname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    color: black;
+}
+
+h3, .price {
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.p3 {
+    font-size: 14.5px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.products p {
+    text-decoration: none;
+}
+
+.learnadd {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.products input {
+    width: 60%;
+    height: 35px;
+}
+
+.img4 {
+        padding-top: 60px;
+        float: top;
+        width:  323px;
+        height: 323px;
+        object-fit: cover;
+}
+
+.addtocard_button{
     background-color: #BF7631;
+    color: white;
+}
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form p {
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+.msgi {
+    width: 400px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+
+form  .send {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #BF7631;
+    text-align: center;
+}
+
+.img5 {
+    width: 85px;
+    padding: 0 29px 0 29px;
+}
+
+.logoimg2 {
+    width: 37px;
+}
+
+.footerlogo {
+    font-size: 23px;
+}
+
+.p6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.credit {
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
