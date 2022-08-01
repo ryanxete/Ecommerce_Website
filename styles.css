@@ -118,13 +118,17 @@ h2 {
     padding-right: 100px;
 }
 
+.product-card {
+    text-decoration: none;
+}
+
 .pname {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 15px;
     padding-top: 10px;
-    color: black;
+    color: darkcyan;
 }
 
 h3, .price {
